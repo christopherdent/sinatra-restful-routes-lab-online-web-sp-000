@@ -6,9 +6,9 @@
 <ul>
 
   <% @recipes.each do |recipe| %>
-  <br><br>
+  <ol>
     <h2><a href="/recipes/<%= recipe.id %>"><%= recipe.name %> </a></h2>
-  <br><br>
+  </ol>
     <% end %>
   
 
